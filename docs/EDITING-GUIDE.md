@@ -21,11 +21,11 @@ This repository contains Jordan Dominguez’s current GitHub profile and the sou
 
 <!-- file-map:end -->
 
-Generated HTML previews, temporary video frames, verification reports and installed dependencies stay local and are ignored by Git. There are no archived exports or obsolete preview versions in the current repository tree.
+Generated HTML previews, temporary video frames and installed dependencies stay local and are ignored by Git. Keep verification reports and review images in the local `verification/` folder; they provide evidence for checking changes without adding development artifacts to the public profile.
 
 ## Update the content or links
 
-Edit `profile-content.json`, then run `npm run build`.
+Edit `profile-content.json`. For README text or link changes, run `npm run build`. For terminal copy, colors or animation timing, run `npm run render` so the GIF, MP4, PNG and SVG all reflect the change.
 
 - `readme.bio` and `readme.featuredDescription` control the text beneath the animation.
 - `readme.links.portfolio` and `readme.links.linkedin` control the contact buttons.
@@ -38,13 +38,15 @@ Edit `profile-content.json`, then run `npm run build`.
 
 Keep the five project IDs unless also updating their illustration code. Only add tools or achievements that are supported by the profile owner’s work.
 
+The README buttons and GitHub’s account website field are separate. Update **Edit profile → Website** on GitHub when changing the main portfolio address. A linked GitHub README must be in a public repository for visitors without access to open it.
+
 ## Build and preview
 
 Requirements: Node.js 20 or later, Playwright, Chromium, FFmpeg and FFprobe. Install dependencies with `npm ci`. The dependency versions are pinned in `package-lock.json`.
 
 ```sh
 npm run build         # README, link graphics, SVG and local HTML preview
-npm run poster        # Also render the full-resolution PNG
+npm run poster        # Update the PNG for static review; videos require render
 npm run render        # Render PNG, MP4 and GIF
 npm run verify        # Verify both media files decode, dimensions and loop timing
 npm run format:check  # Check source formatting
@@ -77,10 +79,12 @@ The renderer refreshes the marked file map and timing table from the configurati
 
 The renderer checks all six terminal sections and five project cards, text bounds, complete content, the simultaneous intro fade, typing that starts at `$ whoami`, partial typed prefixes, cursor alignment, hidden future lines, replay reset, loading progress and the minimum eight-second reading hold. Reports and sample frames are written to the ignored `verification/` folder.
 
-## Artwork and claims
+## Development, artwork and claims
+
+Code, documentation and visual design were developed with AI assistance. The profile owner supplied the portfolio content and reviewed the design. The build and verification commands above document how to reproduce and check the outputs.
 
 The terminal reference supplied by the profile owner guided the composition. The AI Decision Trust Lab reference guided its blue/teal hero, signal curves and two workbench panels. Project miniatures are original illustrative vectors, not client screenshots or reported results.
 
-The two impact metrics and listed tools were supplied by the profile owner. The globe and wave backdrop was generated for this composition. Font license: [DejaVu license](../tools/terminal/fonts/LICENSE.txt).
+The two impact metrics and listed tools were supplied by the profile owner. The globe and wave backdrop was AI-generated for this composition. Font license: [DejaVu license](../tools/terminal/fonts/LICENSE.txt).
 
 Build and render commands update local files only. Publication happens through a separate Git commit and push.

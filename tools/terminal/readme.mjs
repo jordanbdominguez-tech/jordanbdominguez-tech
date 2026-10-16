@@ -97,7 +97,7 @@ ${content.featuredDescription}
 
 This repository contains the current profile animation and its editable source. See the [editing guide](./docs/EDITING-GUIDE.md) for the file map and rebuild instructions.
 
-The small project interfaces are illustrative previews.
+Code, documentation and visual design were developed with AI assistance. The profile owner supplied the portfolio content and reviewed the design. The small project interfaces are illustrative previews.
 
 </details>
 `;
