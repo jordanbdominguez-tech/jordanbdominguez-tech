@@ -1,0 +1,287 @@
+{
+  "header": "jordanbdominguez-tech",
+  "headerMotto": "IDEAS → DATA → SYSTEMS → IMPACT",
+  "intro": [
+    "// Building data-driven solutions for a smarter, more transparent tomorrow.",
+    "// Analytics. Automation. AI. Real-World Impact."
+  ],
+  "identity": {
+    "name": "Jordan Dominguez",
+    "role": "Enterprise Data, Analytics & AI Transformation",
+    "statement": "Turning complex data into clearer decisions."
+  },
+  "impact": [
+    "Analytics supporting $1.1T+ AUM",
+    "90% reduction in manual reporting",
+    "Data products that drive measurable business outcomes"
+  ],
+  "expertise": [
+    "Analytics • Data Governance • Automation • AI/ML",
+    "Risk Engineering • Financial Data • Product Development"
+  ],
+  "stack": [
+    [
+      "Python",
+      "SQL",
+      "TypeScript",
+      "Next.js",
+      "Streamlit",
+      "Supabase"
+    ],
+    [
+      "PostgreSQL",
+      "Snowflake",
+      "Power BI",
+      "Tableau",
+      "DuckDB",
+      "Git"
+    ],
+    [
+      "Power Automate"
+    ]
+  ],
+  "stackSeparator": " • ",
+  "projects": [
+    {
+      "id": "trust",
+      "title": "AI Decision Trust Lab",
+      "description": "Guided data quality, SQL analytics, modeling, governance and explainable decisions.",
+      "tags": [
+        "Data quality",
+        "Governance",
+        "Explainability"
+      ],
+      "hero": [
+        "Understand your data.",
+        "Decide what’s next."
+      ],
+      "previewActions": [
+        "Analyze Your Data",
+        "Explore Guided Demo"
+      ],
+      "previewTitle": "Guided data workbench"
+    },
+    {
+      "id": "finance",
+      "title": "Financial Performance Signal Model",
+      "description": "Executive dashboards and financial performance signals.",
+      "tags": [
+        "Analytics",
+        "Finance",
+        "Signals"
+      ],
+      "previewTitle": "Performance overview"
+    },
+    {
+      "id": "risk",
+      "title": "AI & Risk Engineering",
+      "description": "SLA breach detection, risk signals and escalation logic.",
+      "tags": [
+        "AI/ML",
+        "Risk",
+        "Automation"
+      ],
+      "previewTitle": "Operational signals"
+    },
+    {
+      "id": "delivery",
+      "title": "Analytics Delivery Operating App",
+      "description": "Intake, prioritization and delivery visibility.",
+      "tags": [
+        "Operations",
+        "Workflow",
+        "Data"
+      ],
+      "previewTitle": "Delivery workspace"
+    },
+    {
+      "id": "leads",
+      "title": "Lead Intelligence Hub",
+      "description": "Lead readiness, funnel visibility and conversion risk.",
+      "tags": [
+        "Growth",
+        "Insights",
+        "Readiness"
+      ],
+      "previewTitle": "Pipeline intelligence"
+    }
+  ],
+  "currentlyBuilding": "Smarter tools. Better data. Bigger impact.",
+  "metrics": [
+    {
+      "value": "$1.1T+",
+      "label": [
+        "AUM Supported"
+      ],
+      "icon": "chart"
+    },
+    {
+      "value": "90%",
+      "label": [
+        "Manual Reporting",
+        "Reduction"
+      ],
+      "icon": "bolt"
+    },
+    {
+      "value": "Enterprise",
+      "label": [
+        "Analytics",
+        "Data Governance"
+      ],
+      "icon": "database"
+    },
+    {
+      "value": "Real-World",
+      "label": [
+        "Impact",
+        "Decision Intelligence"
+      ],
+      "icon": "people"
+    }
+  ],
+  "quote": [
+    "Better data.",
+    "Clearer decisions."
+  ],
+  "quoteAttribution": "Jordan Dominguez",
+  "verticalWords": [
+    "PEOPLE",
+    "DATA",
+    "IDEAS",
+    "SYSTEMS",
+    "OPPORTUNITY"
+  ],
+  "footer": "ANALYZE / BUILD / AUTOMATE / IMPACT",
+  "microText": "// KEEP BUILDING",
+  "previewLabel": "ILLUSTRATIVE PROJECT PREVIEWS",
+  "theme": {
+    "background": "#020b16",
+    "panel": "#041120",
+    "cyan": "#19e5e2",
+    "ice": "#8ed9ee",
+    "text": "#e6f0f7",
+    "muted": "#9eb4c9",
+    "blue": "#449bfa",
+    "line": "#173b5b"
+  },
+  "render": {
+    "width": 2400,
+    "height": 1360,
+    "durationSeconds": 30,
+    "fps": 30,
+    "gifWidth": 1600,
+    "gifFps": 20,
+    "posterTime": 25,
+    "captureWorkers": 3,
+    "introReveal": {
+      "startSeconds": 2.95,
+      "durationSeconds": 0.4,
+      "offsetY": 6
+    },
+    "typing": {
+      "startSeconds": 3.2,
+      "commandCharactersPerSecond": 20,
+      "bodyCharactersPerSecond": 72,
+      "nameCharactersPerSecond": 30,
+      "linePauseSeconds": 0.1,
+      "sectionPauseSeconds": 0.2,
+      "minimumReadingHoldSeconds": 8
+    },
+    "projectStarts": [
+      6.85,
+      7.2,
+      7.55,
+      7.9,
+      8.25
+    ],
+    "metricsStart": 8.55,
+    "quoteStart": 8.85,
+    "revealSeconds": 0.7,
+    "fadeOutSeconds": 0.8,
+    "boot": {
+      "powerOnSeconds": 0.9,
+      "rainStart": 0.35,
+      "rainEnd": 3.1,
+      "fadeSeconds": 0.6,
+      "zoomStart": 1.8,
+      "zoomEnd": 3.6,
+      "initialScale": 0.91,
+      "portfolioStart": 1.9,
+      "portfolioFadeSeconds": 1.2,
+      "consoleStart": 0.45,
+      "debugCharactersPerSecond": 60,
+      "debugStarts": [
+        0.55,
+        1.15,
+        1.95
+      ],
+      "progressKeyframes": [
+        [
+          0.45,
+          0
+        ],
+        [
+          0.85,
+          0.24
+        ],
+        [
+          1.1,
+          0.3
+        ],
+        [
+          1.5,
+          0.59
+        ],
+        [
+          1.8,
+          0.65
+        ],
+        [
+          2.2,
+          0.87
+        ],
+        [
+          2.5,
+          1
+        ]
+      ],
+      "glitchWindows": [
+        [
+          0.9,
+          1.0
+        ],
+        [
+          1.7,
+          1.8
+        ]
+      ],
+      "matrixColumns": 42,
+      "matrixSpeed": 180,
+      "matrixCharacterRate": 8,
+      "debugLines": [
+        "> updating workspace modules...",
+        "> loading data / ideas / systems...",
+        "> rendering portfolio :: READY"
+      ]
+    }
+  },
+  "provenance": {
+    "design": "Terminal composition with a blue/teal guided-workbench illustration inspired by the AI Decision Trust Lab interface.",
+    "projectPreviews": "Original illustrative vector interfaces. Charts and interface marks are decorative, not production screenshots or reported outcomes.",
+    "claims": "Portfolio owner-provided AUM and reporting-reduction metrics.",
+    "artwork": "Generated globe and wireframe background with original vector project illustrations.",
+    "scope": "GitHub profile assets and rendering tools."
+  },
+  "readme": {
+    "bio": "I lead analytics and automation initiatives that translate complex business problems into measurable results, trustworthy data, and practical technology solutions.",
+    "featuredProjectId": "trust",
+    "featuredDescription": "An independent Guided Data Workbench built with Python, pandas, DuckDB, and Streamlit, focused on validating and understanding data before using it for decisions.",
+    "links": {
+      "portfolio": "https://jordan-dominguez-portfolio.pages.dev/",
+      "linkedin": "https://www.linkedin.com/in/jordanbdominguez",
+      "caseStudy": "https://github.com/jordanbdominguez-tech/ai-decision-trust-lab/blob/main/README.md",
+      "liveDemo": "https://ai-decision-trust-lab.streamlit.app/"
+    }
+  }
+}

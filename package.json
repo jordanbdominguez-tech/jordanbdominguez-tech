@@ -1,0 +1,23 @@
+{
+  "name": "jordanbdominguez-profile-terminal",
+  "private": true,
+  "version": "4.0.0",
+  "type": "module",
+  "description": "Editable animated terminal assets for the Jordan Dominguez GitHub profile.",
+  "scripts": {
+    "build": "node tools/terminal/build.mjs",
+    "poster": "node tools/terminal/build.mjs && node tools/terminal/render.mjs --poster-only",
+    "render": "node tools/terminal/build.mjs && node tools/terminal/render.mjs",
+    "verify": "node tools/terminal/verify.mjs",
+    "format": "prettier --write \"tools/terminal/*.{mjs,js}\"",
+    "format:check": "prettier --check \"tools/terminal/*.{mjs,js}\""
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "prettier": "3.9.10"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "embeddedLanguageFormatting": "off"
+  }
+}

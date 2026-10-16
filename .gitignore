@@ -1,0 +1,6 @@
+node_modules/
+.render-frames/
+verification/
+*.log
+.DS_Store
+preview/
