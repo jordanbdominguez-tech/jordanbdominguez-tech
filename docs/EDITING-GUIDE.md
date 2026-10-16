@@ -55,6 +55,8 @@ npm run format        # Format source after editing
 
 The renderer uses `/usr/bin/chromium` by default. Set `CHROMIUM_PATH` to another installed Chromium executable if needed. Put `ffmpeg` and `ffprobe` on `PATH`.
 
+The GIF and MP4 are encoded separately from the original rendered PNG frames. This keeps video compression noise out of the GIF and helps it reuse unchanged pixels between frames. GIF dimensions, frame rate and duration remain controlled by `profile-content.json`; compression does not remove content or shorten the animation.
+
 After building, open `preview/terminal.html`. It is self-contained and opens on the completed design. Use **Replay intro** to play or **Hold full composition** to pause. Fonts and artwork are bundled; playback does not need a server or network connection.
 
 The README, link graphics, preview HTML and poster SVG are generated files. Make lasting copy changes in the configuration and layout changes in `tools/terminal/build.mjs` or `tools/terminal/readme.mjs`.
